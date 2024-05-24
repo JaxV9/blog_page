@@ -36,7 +36,7 @@ export const Article = () => {
                         const remainingWords = words.join(' ');
 
                         return(
-                        <div className={`articlePartContainer ${index % 2 === 1 ? 'reverse' : ''}`}>
+                        <div className={`articlePartContainer ${index % 2 === 1 ? 'reverse' : ''}`} key={index}>
                             <div className="articleDiv">
                                 <div className="imageArticle" style={{ backgroundImage: `url(${images[index]})` }}></div>
                             </div>
