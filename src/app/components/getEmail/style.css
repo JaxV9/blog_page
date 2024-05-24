@@ -1,0 +1,69 @@
+.getEmailContainer {
+    width: 100%;
+    height: 200px;
+    background: rgb(135,57,241);
+    background: linear-gradient(90deg, rgba(135,57,241,1) 0%, rgba(205,92,207,1) 100%);
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.getEmailLabel {
+    display: flex;
+}
+
+.getEmailLabel > p {
+    display: block;
+    margin: auto;
+    font-size: 30px;
+}
+
+.getEmailInputContainer {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    position: relative;
+}
+
+.getEmailInputContainer > a {
+    width: fit-content;
+    height: fit-content;
+}
+
+.getEmailBtn {
+    border: none;
+    width: 100px;
+    height: 52px;
+    margin-left: auto;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: -100px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #822ceb;
+    transition: all ease 0.2s;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.getEmailBtn:hover {
+    background-color: #301554;
+    transition: all ease 0.2s;
+}
+
+.getEmailInput {
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: block;
+    outline: none;
+    font-size: 18px;
+    padding-left: 28px;
+    padding-right: 28px;
+}

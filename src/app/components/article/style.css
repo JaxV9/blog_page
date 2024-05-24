@@ -1,0 +1,60 @@
+.articleSectionContainer {
+    width: 80%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+.articleIntro {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.articlePartContainer {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    column-gap: 28px;
+    margin-bottom: 64px;
+}
+
+.articlePartContainer.reverse {
+    flex-direction: row-reverse;
+}
+
+.articleDiv {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageArticle {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.textArticle {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 40px;
+}
+
+.textArticle > p {
+    margin: 0;
+}
+
+.firstWord {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+    color: #CD5CCF;
+}
