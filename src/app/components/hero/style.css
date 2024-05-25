@@ -55,7 +55,6 @@
     font-weight: 500;
     margin-top: 50px;
     margin-bottom: 50px;
-    text-align: justify;
 }
 
 @media (max-width: 1000px) {
@@ -77,6 +76,7 @@
         font-weight: 500;
         margin-top: 50px;
         margin-bottom: 50px;
+        text-align: justify;
     }
 
     .pictureHero {

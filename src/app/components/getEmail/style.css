@@ -78,4 +78,8 @@
     .getEmailInputContainer {
         right: 50px;
     }
+
+    .getEmailLabel > p {
+        text-align: center;
+    }
 }
