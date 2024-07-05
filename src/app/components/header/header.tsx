@@ -5,7 +5,7 @@ export const Header = () => {
     return(
         <>
             <div className="navBarContainer">
-                <h1>odace+</h1>
+                <h1>blog+</h1>
             </div>
         </>
     )
